@@ -8,10 +8,10 @@ configuration:
 If you want to run a Django test server, simply follow the instructions given
 here:
 
-	https://seattle.cs.washington.edu/wiki/CustomInstallerBuilderTesting
+	https://seattle.poly.edu/wiki/CustomInstallerBuilderTesting
 
 
 For formal deployment using a dedicated web server (e.g., Apache), follow these
 instructions instead:
 
-    https://seattle.cs.washington.edu/wiki/CustomInstallerBuilderDeployment
+    https://seattle.poly.edu/wiki/CustomInstallerBuilderDeployment
