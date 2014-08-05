@@ -16,6 +16,6 @@ https://github.com/SeattleTestbed/nodemanager
 https://github.com/SeattleTestbed/softwareupdater
 https://github.com/SeattleTestbed/portability
 https://github.com/SeattleTestbed/dist -b new_build_v1
-# Why is this needed? https://github.com/SeattleTestbed/clearinghouse
-# Deliberately excluded: seash. You get that with the demokit (another 
-# problematic, non-build.py'able component.)
+https://github.com/aaaaalbert/affix.git -b minimal-clean-alpha-release
+https://github.com/SeattleTestbed/clearinghouse
+https://github.com/aaaaalbert/seash.git -b sync-with-affix-alpha-release
