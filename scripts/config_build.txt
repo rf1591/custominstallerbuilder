@@ -15,4 +15,6 @@ seattlelib_v2/*
 seash/*
 clearinghouse/xmlrpc_clients/seattleclearinghouse_xmlrpc.py
 dist/LICENSE.TXT
+affix/*
+affix/components/*
 
