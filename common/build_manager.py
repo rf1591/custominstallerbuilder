@@ -32,7 +32,13 @@ import custominstallerbuilder.common.validations as validations
 # Seattle standard library is within the Python path.
 from repyportability import *
 add_dy_support(locals())
+
+import os
+prev_cwd = os.getcwd()
+print prev_cwd
+os.chdir("./repy_runtime")
 dy_import_module_symbols("rsa.r2py")
+os.chdir(prev_cwd)
 
 class BuildManager:
   """
