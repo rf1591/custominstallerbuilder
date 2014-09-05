@@ -19,4 +19,5 @@ https://github.com/SeattleTestbed/dist -b new_build_v1
 https://github.com/SeattleTestbed/affix.git
 https://github.com/SeattleTestbed/seash.git
 https://github.com/SeattleTestbed/resource.git
+https://github.com/SeattleTestbed/common
 
