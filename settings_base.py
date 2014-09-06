@@ -32,7 +32,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 TEMPLATE_LOADERS = (
-  'django.template.loaders.app_directories.load_template_source',
+  'django.template.loaders.app_directories.Loader',
 )
 
 MIDDLEWARE_CLASSES = (
