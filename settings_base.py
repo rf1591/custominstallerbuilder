@@ -107,7 +107,7 @@ TEMPLATE_DEBUG = DEBUG
 
 SECRET_KEY = '***** This should be changed to a random string *****'
 
-ADMINS = (('Seattle developers', 'seattle-devel@cs.washington.edu'),)
+ADMINS = (('Seattle developers', 'seattle-devel@googlegroups.com'),)
 MANAGERS = ADMINS
 
 TIME_ZONE = 'America/Los_Angeles'
