@@ -18,5 +18,6 @@ DEPENDENCIES/portability/*
 DEPENDENCIES/seattlelib_v2/*
 DEPENDENCIES/seash/*
 DEPENDENCIES/common/seattleclearinghouse_xmlrpc.py
+DEPENDENCIES/softwareupdater/generatekeys.py
 DEPENDENCIES/affix/*
 DEPENDENCIES/affix/components/*
