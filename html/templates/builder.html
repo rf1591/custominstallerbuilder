@@ -19,7 +19,7 @@
     
     <div id="user_creator">
       <iframe id="user_frame" name="user_frame"></iframe>
-      <form id="user_form" method="post" target="user_frame" enctype="multipart/form-data" action="{% url 'ajax-add-user' %}">
+      <form id="user_form" method="post" target="user_frame" enctype="multipart/form-data" action="{% url 'ajax-add-user' %}">{% csrf_token %}
         <fieldset class="round_shadow">
           <legend>New user</legend>
           <p>
