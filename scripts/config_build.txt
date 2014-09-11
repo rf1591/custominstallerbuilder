@@ -13,10 +13,10 @@
 # Contributors please note:
 # Be sure to revisit this workaround whenever progress is made on 
 # SeattleTestbed/portability#25 through 28!
-../DEPENDENCIES/repy_v2/*
-../DEPENDENCIES/portability/*
-../DEPENDENCIES/seattlelib_v2/*
-../DEPENDENCIES/seash/*
-../DEPENDENCIES/common/seattleclearinghouse_xmlrpc.py
-../DEPENDENCIES/affix/*
-../DEPENDENCIES/affix/components/*
+DEPENDENCIES/repy_v2/*
+DEPENDENCIES/portability/*
+DEPENDENCIES/seattlelib_v2/*
+DEPENDENCIES/seash/*
+DEPENDENCIES/common/seattleclearinghouse_xmlrpc.py
+DEPENDENCIES/affix/*
+DEPENDENCIES/affix/components/*
