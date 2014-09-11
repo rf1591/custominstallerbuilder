@@ -73,7 +73,7 @@ if [ "$UPDATE_KEY_FOUND" == "" ]; then
 fi
 
 echo "Archiving old base installers to $BASE_INSTALLER_ARCHIVE_DIR"
-echo "Warning: failure after this point may leave seattlegeni with no base installers!"
+echo "Warning: failure after this point may leave user $USER with no base installers!"
 sudo mv -f $BASE_INSTALLER_DIRECTORY/seattle_* $BASE_INSTALLER_ARCHIVE_DIR
 
 echo "Building new base installers at $BASE_INSTALLER_DIRECTORY"
@@ -90,7 +90,7 @@ if [ "$?" != "0" ]; then
   exit 1
 fi
 
-echo "Changing base installer symlinks used by seattlegeni."
+echo "Changing base installer symlinks used by user $USER."
 
 pushd $BASE_INSTALLER_DIRECTORY
 
@@ -107,5 +107,5 @@ sudo -u $USER ln -s -f seattle_${VERSION}_win.zip seattle_win.zip
 sudo -u $USER ln -s -f seattle_${VERSION}_android.zip seattle_android.zip
 popd
 
-echo "New base installers created and installed for seattlegeni."
+echo "New base installers created and installed for user $USER."
 
