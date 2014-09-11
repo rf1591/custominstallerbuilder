@@ -15,9 +15,7 @@ https://github.com/SeattleTestbed/seattlelib_v2 ../DEPENDENCIES/seattlelib_v2
 https://github.com/SeattleTestbed/nodemanager ../DEPENDENCIES/nodemanager
 https://github.com/SeattleTestbed/softwareupdater ../DEPENDENCIES/softwareupdater
 https://github.com/SeattleTestbed/portability ../DEPENDENCIES/portability
-https://github.com/SeattleTestbed/dist -b new_build_v1 ../DEPENDENCIES/dist
 https://github.com/SeattleTestbed/affix.git ../DEPENDENCIES/affix
 https://github.com/SeattleTestbed/seash.git ../DEPENDENCIES/seash
 https://github.com/SeattleTestbed/resource.git ../DEPENDENCIES/resource
 https://github.com/SeattleTestbed/common ../DEPENDENCIES/common
-
