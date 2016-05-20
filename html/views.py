@@ -18,7 +18,13 @@ import os
 import sys
 import tempfile
 
-import simplejson as json
+# The reasons for wanting simplejson as json seem lost in time.
+# Let's try our best to have some JSON support!
+try:
+  import simplejson as json
+except ImportError:
+  import json
+
 from django.conf import settings
 from django.core.servers.basehttp import FileWrapper
 from django.core.urlresolvers import reverse
