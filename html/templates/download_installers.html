@@ -19,7 +19,7 @@
 
 <div class="section">
   <h2>Download installers</h2>
-  <p>Installers are provided for Android, Linux, Mac OS X, and Windows.</p>
+  <p>Installers are provided for Android, Linux, Mac OS X, OpenWrt, and Windows.</p>
   
   <table id="downloads"> 
   <tr id="android">
@@ -62,6 +62,25 @@
         </ol>
         
         <p>To check that Seattle is running, try running:<br /><code>ps Aww | grep nmmain.py | grep -v grep</code></p> 
+        
+        <p>Note: You must have Python 2.5 installed.</p>
+      </td> 
+    </tr>
+    <tr id="openwrt"> 
+      <td><a href="{{ installers.linux }}"><img src="{{ MEDIA_URL }}/img/openwrt.png" alt="openwrt" /></a><br /><a class="button" href="{{ installers.linux }}">Download installer<br />for OpenWrt</a></td> 
+      <td>
+        <p><strong>OpenWrt instructions</strong></p>
+        
+        <ol> 
+          <li>Download the Seattle tarball.</li> 
+          <li>Copy the tarball to OpenWrt with <code>scp seattle_openwrt.tar.gz root@192.168.1.1:/</code></li> 
+          <li>Ssh into the router and navigate to the directory containing the tarball.</li> 
+          <li>Extract the tarball with <code>tar -xvzf seattle_openwrt.tar.gz</code></li>
+          <li>Update or install packages required for Seattle installation. <br /><code>opkg install python-light python-compiler python-ctypes python-logging python-openssl python-xml</code></li>
+          <li>Navigate to <i>seattle</i> and run <code>./install.sh</code></li>
+        </ol>
+        
+        <p>To check that Seattle is running, try running:<br /><code>ps | grep nmmain.py | grep -v grep</code></p> 
         
         <p>Note: You must have Python 2.5 installed.</p>
       </td> 
